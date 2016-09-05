@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jhon.holamundoseratic.HolaMundoActivity"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/texto_hola_mundo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hola mundo"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:padding="8dp"
+        android:gravity="center"
+        />
+    <Button
+        android:id="@+id/boton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cambiar Text"
+        android:background="#ff0000"
+        android:textColor="#ffffff"
+        android:layout_marginTop="4dp"
+        >
+    </Button>
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:hint="Texto aqui"
+        android:gravity="center"
+        android:inputType="text"
+        android:maxLines="1"
+        />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/perro"
+            android:scaleType="centerCrop"
+            />
+    <CheckBox
+        android:id="@+id/amarillo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="El perro es amarillo"
+        />
+    <CheckBox
+        android:id="@+id/no_amarillo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="el perro no es amarillo"
+        />
+    <CheckBox
+        android:id="@+id/no_existe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="El perro no existe"
+        />
+</LinearLayout>
